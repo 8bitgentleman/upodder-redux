@@ -3,3 +3,4 @@ requests
 feedparser
 sqlobject
 tqdm
+listparser==0.18

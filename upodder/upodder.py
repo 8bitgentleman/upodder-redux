@@ -8,27 +8,54 @@ import os
 import sys
 from os.path import expanduser
 import logging
+import configparser
 import re
 import requests
 import argparse
-import shutil # To get around "cross-device" rename error when moving to dest. dir.
+import shutil  # To get around "cross-device" rename err when mov to dest. dir.
 from datetime import datetime as dt
-from sqlobject import SQLObject, sqlite, DateTimeCol, UnicodeCol
+from sqlobject import SQLObject, sqlite, DateTimeCol, UnicodeCol, StringCol, BoolCol
 from tqdm import tqdm
 
 # python2 compat
-try: input = raw_input
-except NameError: pass
+try:
+    input = raw_input
+except NameError:
+    pass
+
+dir_path = os.path.dirname(os.path.realpath(__file__))
+configfile_name = "config.ini"
+
+# Check if there is already a configurtion file
+if not os.path.isfile(configfile_name):
+    # Create the configuration file as it doesn't exist yet
+    cfgfile = open(configfile_name, 'w')
+
+    # Add content to the file
+    Config = configparser.ConfigParser()
+    Config.add_section('upodder')
+    Config.set('upodder', 'podcastdir', dir_path + '/podcasts')
+    Config.set('upodder', 'basedir', dir_path + '/db')
+    Config.set('upodder', 'oldness', '30')
+    Config.write(cfgfile)
+    cfgfile.close()
+
+# load settings here
+config = configparser.ConfigParser()
+config.read(configfile_name)
+podcastdir = str(config['upodder']['podcastdir'])
+basedir = str(config['upodder']['basedir'])
+oldness = int(config['upodder']['oldness'])
 
 # TODO expanduser as action? https://gist.github.com/brantfaircloth/1252339
 parser = argparse.ArgumentParser(description='Download podcasts via the command line.')
 parser.add_argument('--no-download', action='store_true',
                    help="Don't download any files. Just mark as read.")
-parser.add_argument('--podcastdir', '-p', default='~/Downloads/podcasts', 
+parser.add_argument('--podcastdir', '-p', default=podcastdir,
     help="Folder to download podcast files to.")
-parser.add_argument('--basedir', '-b', default='~/.upodder', 
+parser.add_argument('--basedir', '-b', default=basedir,
     help="Folder to store subscriptions and seen database.")
-parser.add_argument('--oldness', '-o', default=30, type=int,
+parser.add_argument('--oldness', '-o', default=oldness, type=int,
     help="Skip entries older than X days.")
 parser.add_argument('--mark-seen', action='store_true',
     help="Just mark all entries as seen and exit.")
@@ -38,8 +65,8 @@ parser.add_argument("--quiet", help="Only output errors.",
                     action="store_true")
 args = parser.parse_args()
 
-YES = [1,"1","on","yes","Yes","YES","y","Y","true","True","TRUE","t","T"]
-CONFIGCOMMENT = ['#',';','$',':','"',"'"]
+YES = [1, "1", "on", "yes", "Yes", "YES", "y", "Y", "true", "True", "TRUE", "t", "T"]
+CONFIGCOMMENT = ['#', ';', '$', ':', '"', "'"]
 BADFNCHARS = re.compile(r'[^\w]+')
 TEMPDIR = '/tmp/upodder'
 FILENAME = '{entry_title}.{filename_extension}'
@@ -65,10 +92,24 @@ FILE_TYPES = {
     'audio/mp3': 'mp3'
     }
 
-class SeenEntry(SQLObject):
-    "Represents a single feed item, seen before. Used to keep track of download status."
+
+class PodEntry(SQLObject):
+    '''A lookup table of all your podcast subscriptions'''
+    pod_title = StringCol()
     hashed = UnicodeCol()
     pub_date = DateTimeCol()
+    cover = StringCol()
+    description = StringCol()
+    category = StringCol()
+    active = BoolCol()
+
+
+class SeenEntry(SQLObject):
+    '''A single feed item, seen before. Used to keep track of dl status.'''
+    pod_title = StringCol()
+    hashed = UnicodeCol()
+    pub_date = DateTimeCol()
+
 
 class EntryProcessor(object):
     "Processes single feed entry"
@@ -78,28 +119,28 @@ class EntryProcessor(object):
 
         if args.mark_seen:
             SeenEntry(pub_date=self.pub_date, hashed=self.hashed)
-            l.debug("Marking as seen: %s"%(entry['title']))
+            l.debug("Marking as seen: %s" % (entry['title']))
             return
 
         # Let's check if we worked on this entry earlier...
         if SeenEntry.select(SeenEntry.q.hashed == self.hashed).count() > 0:
-            l.debug("Already seen: %s"%(entry['title']))
+            l.debug("Already seen: %s" % (entry['title']))
             return
-        
+
         # Let's check the entry's date
         if (dt.now() - self.pub_date).days > args.oldness:
-            l.debug("Too old for us: %s"%entry['title'])
+            l.debug("Too old for us: %s" % entry['title'])
             return
 
         # Search for mpeg enclosures
-        for enclosure in filter(lambda x: x.get('type') in FILE_TYPES.keys() ,entry.get('enclosures',[])):
+        for enclosure in filter(lambda x: x.get('type') in FILE_TYPES.keys(), entry.get('enclosures', [])):
             # Work only with first found audio/mpeg or video/x-m4v enclosure (Bad Thing? maybe :( )
 
             # copy enclosure.type to entry.type for generate_filename processing.
             entry['type'] = enclosure.get('type')
-            
+
             if self._download_enclosure(enclosure, entry, feed, args.no_download):
-                SeenEntry( pub_date=self.pub_date, hashed=self.hashed)
+                SeenEntry(pub_date=self.pub_date, hashed=self.hashed)
             break
 
     def _download_enclosure(self, enclosure, entry, feed, no_download=False):
@@ -122,8 +163,8 @@ class EntryProcessor(object):
             with open(downloadto, 'wb') as f:
                 if 'content-length' in r.headers:
                     total_length = int(r.headers['content-length'])
-                    with tqdm(total=total_length, 
-                              unit="B", 
+                    with tqdm(total=total_length,
+                              unit="B",
                               unit_scale=True,
                               ncols=90) as pbar:
                         for chunk in r.iter_content(1024):
@@ -154,34 +195,36 @@ class EntryProcessor(object):
 
         # Move downloaded file to its final destination
         moveto = expanduser(args.podcastdir) + os.sep + self._generate_filename(entry, feed)
-        l.debug("Moving {%s} to {%s}"%(downloadto,moveto))
-        if not os.path.exists(os.path.dirname(moveto)): os.makedirs(os.path.dirname(moveto))
+        l.debug("Moving {%s} to {%s}" % (downloadto, moveto))
+        if not os.path.exists(os.path.dirname(moveto)):
+            os.makedirs(os.path.dirname(moveto))
         shutil.move(downloadto, moveto)
         return True
 
     def _generate_filename(self, entry, feed):
         """Generates file name for this enclosure based on config settins
            Added filename_extension dict mapping to handle different file types."""
-        (year,month,day,hour,minute,second,weekday,yearday,leap) = time.localtime()
+        (year, month, day, hour, minute, second, weekday, yearday, leap) = time.localtime()
         subst = {
-            'today': '%i-%02i-%02i'%(year,month,day),
+            'today': '%i-%02i-%02i' % (year, month, day),
             'entry_date': self.pub_date.date().isoformat(),
             'id': self.hashed,
-            'entry_title': re.sub(BADFNCHARS,'_',entry.get('title')),
-            'feed_href': re.sub(BADFNCHARS,'_',feed.href.split('://')[-1]),
-            'feed_title': re.sub(BADFNCHARS,'_',feed.feed.get('title',feed.href)),
+            'entry_title': re.sub(BADFNCHARS, '_', entry.get('title')),
+            'feed_href': re.sub(BADFNCHARS, '_', feed.href.split('://')[-1]),
+            'feed_title': re.sub(BADFNCHARS, '_', feed.feed.get('title', feed.href)),
             'filename_extension': FILE_TYPES.get(entry.get('type')),
         }
         return FILENAME.format(**subst)
+
 
 def process_feed(url):
     l.info('Downloading feed: %s' % url)
     feed = feedparser.parse(url)
 
     # Not all bozo errors cause total failure
-    if feed.bozo and isinstance(feed.bozo_exception, 
+    if feed.bozo and isinstance(feed.bozo_exception,
                                 (type(feedparser.NonXMLContentType), type(feedparser.CharacterEncodingOverride))):
-        l.error("Erroneous feed URL: %s (%s)"%(url, type(feed.bozo_exception)))
+        l.error("Erroneous feed URL: %s (%s)" % (url, type(feed.bozo_exception)))
         return
 
     # When parsing a website or error message, title is missing.
@@ -189,11 +232,12 @@ def process_feed(url):
         l.error("Erroneous feed URL: %s" % url)
         return
 
-    l.info("Parsing feed: %s"%feed.feed.title)
-    
+    l.info("Parsing feed: %s" % feed.feed.title)
+
     feed.entries.reverse()
     for entry in feed.entries:
         EntryProcessor(entry, feed)
+
 
 def import_opml(subscriptions, opml):
     """Import a list of subscriptions from an OPML file."""
@@ -209,27 +253,31 @@ def import_opml(subscriptions, opml):
     # Import any feeds we're not already subscribed to
     with open(subscriptions, 'a') as f:
         for feed in imported_feeds.feeds:
-            if not feed.url in subscribed_feeds:
+            if feed.url not in subscribed_feeds:
                 print("Importing " + feed.title + "...")
                 subscribed_feeds.append(feed.url)
                 f.write(feed.url + "\n")
     sys.exit()
 
+
 def init():
     if not os.path.exists(expanduser(args.basedir)):
-        l.info("Creating base dir %s"%args.basedir)
+        l.info("Creating base dir %s" % args.basedir)
         os.makedirs(expanduser(args.basedir))
 
     subscriptions = expanduser(args.basedir) + os.sep + 'subscriptions'
     if not os.path.exists(subscriptions):
-        l.info("Creating empty subscriptions file %s"%subscriptions)
-        open(subscriptions,'a').write("# Add your RSS/ATOM subscriptions here.\n\n")
+        l.info("Creating empty subscriptions file %s" % subscriptions)
+        open(subscriptions, 'a').write("# Add your RSS/ATOM subscriptions here.\n\n")
 
     if args.opmlpath:
         import_opml(subscriptions, args.opmlpath)
 
     SeenEntry._connection = sqlite.builder()(expanduser(args.basedir + os.sep + 'seen.sqlite'), debug=False)
     SeenEntry.createTable(ifNotExists=True)
+    PodEntry._connection = sqlite.builder()(expanduser(args.basedir + os.sep + 'seen.sqlite'), debug=False)
+    PodEntry.createTable(ifNotExists=True)
+
 
 def main():
     init()
@@ -237,10 +285,9 @@ def main():
     for url in map(lambda x: x.strip(), open(expanduser(args.basedir) + os.sep + 'subscriptions')):
         if url and url[0] not in CONFIGCOMMENT:
             process_feed(url)
-    
+
     l.info('Done updating feeds.')
 
 
 if __name__ == '__main__':
     main()
-

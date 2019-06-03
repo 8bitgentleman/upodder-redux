@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:cc="http://web.resource.org/cc/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <channel>
+        <atom:link href="http://thismightgetweird.libsyn.com/rss" rel="self" type="application/rss+xml"/>
+        <title>This Might Get Weird</title>
+        <pubDate>Wed, 15 May 2019 09:02:17 +0000</pubDate>
+        <lastBuildDate>Wed, 29 May 2019 00:27:05 +0000</lastBuildDate>
+        <generator>Libsyn WebEngine 2.0</generator>
+        <link>http://thismightgetweird.libsyn.com/website</link>
+        <language>en</language>
+        <copyright><![CDATA[]]></copyright>
+        <docs>http://thismightgetweird.libsyn.com/website</docs>
+        <managingEditor>TMGWpodcast@gmail.com (TMGWpodcast@gmail.com)</managingEditor>
+        <itunes:summary><![CDATA[Grace and Mamrie talk nonsense, common sense and make jokes at their own expense all the while trying to provide you with 30+ minutes of your day you might not hate completely.]]></itunes:summary>
+        <image>
+            <url>http://static.libsyn.com/p/assets/4/7/6/6/4766e843e7e5c863/TMGWlogo1b.jpg</url>
+            <title>This Might Get Weird</title>
+            <link><![CDATA[http://thismightgetweird.libsyn.com/website]]></link>
+        </image>
+        <itunes:author>This Might Get Weird</itunes:author>
+        <itunes:category text="Comedy"/>
+        <itunes:category text="Health">
+            <itunes:category text="Self-Help"/>
+        </itunes:category>
+        <itunes:image href="http://static.libsyn.com/p/assets/4/7/6/6/4766e843e7e5c863/TMGWlogo1b.jpg" />
+        <itunes:explicit>yes</itunes:explicit>
+        <itunes:owner>
+            <itunes:name><![CDATA[Grace Helbig]]></itunes:name>
+            <itunes:email>gracehelbig@gmail.com</itunes:email>
+        </itunes:owner>
+        <description><![CDATA[Grace and Mamrie talk nonsense, common sense and make jokes at their own expense all the while trying to provide you with 30+ minutes of your day you might not hate completely.]]></description>
+        <itunes:subtitle><![CDATA[Grace and Mamrie talk nonsense, common sense and make jokes at their own expense]]></itunes:subtitle>
+        <itunes:type>episodic</itunes:type>
+        <item>
+            <title>TMGW Ep29: Grace goes to see Vanilla Ice.</title>
+            <itunes:title>This Might Get Weird, Ep 29</itunes:title>
+            <pubDate>Wed, 15 May 2019 09:02:17 +0000</pubDate>
+            <guid isPermaLink="false"><![CDATA[1dba8d14315443359c790969667e7f5d]]></guid>
+            <link><![CDATA[http://thismightgetweird.libsyn.com/tmgw-ep29-grace-goes-to-see-vanilla-ice]]></link>
+            <itunes:image href="http://static.libsyn.com/p/assets/4/7/6/6/4766e843e7e5c863/TMGWlogo1b.jpg" />
+            <description><![CDATA[<p class="p1">Grace and Mamrie talk about Dave and Busters, Grace’s trip to to Hollywood and and Mamrie runs a 5k.</p>]]></description>
+            <content:encoded><![CDATA[<p class="p1">Grace and Mamrie talk about Dave and Busters, Grace’s trip to to Hollywood and and Mamrie runs a 5k.</p>]]></content:encoded>
+            <enclosure length="42491977" type="audio/mpeg" url="http://traffic.libsyn.com/thismightgetweird/TMGW_Ep29.mp3?dest-id=815914" />
+            <itunes:duration>44:16</itunes:duration>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:keywords>get,this,weird,might</itunes:keywords>
+            <itunes:subtitle><![CDATA[This Might Get Weird]]></itunes:subtitle>
+            <itunes:summary>Grace and Mamrie talk about Dave and Busters, Grace’s trip to to Hollywood and and Mamrie runs a 5k.
+            </itunes:summary>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
+        <item>
+            <title>TMGW Ep28: Mamrie Meets Her Future Self</title>
+            <itunes:title>This Might Get Weird, Ep 28: Mamrie Meets Her Future Self</itunes:title>
+            <pubDate>Wed, 08 May 2019 10:00:00 +0000</pubDate>
+            <guid isPermaLink="false"><![CDATA[e82c6c2886d545aea2527694d4d17014]]></guid>
+            <link><![CDATA[http://thismightgetweird.libsyn.com/tmgw-ep28-mamrie-meets-her-future-self]]></link>
+            <itunes:image href="http://static.libsyn.com/p/assets/4/7/6/6/4766e843e7e5c863/TMGWlogo1b.jpg" />
+            <description><![CDATA[<p>Grace and Mamrie talk about the Shorty Awards, smuggling Beanz on to a plan and Mamrie loses her purse.</p>]]></description>
+            <content:encoded><![CDATA[<p>Grace and Mamrie talk about the Shorty Awards, smuggling Beanz on to a plan and Mamrie loses her purse.</p>]]></content:encoded>
+            <enclosure length="42384144" type="audio/mpeg" url="http://traffic.libsyn.com/thismightgetweird/TMGW_Ep28.mp3?dest-id=815914" />
+            <itunes:duration>44:09</itunes:duration>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:keywords>get,this,weird,grace,hart,might,helbig,mamrie</itunes:keywords>
+            <itunes:subtitle><![CDATA[This Might Get Weird]]></itunes:subtitle>
+            <itunes:summary>Grace and Mamrie talk about the Shorty Awards, smuggling Beanz on to a plan and Mamrie loses her purse.</itunes:summary>
+            <itunes:season>1</itunes:season>
+            <itunes:episode>28</itunes:episode>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:author>This Might Get Weird</itunes:author>
+        </item>
+        <item>
+            <title>TMGW Ep 27: Grace Gets Kicked Out Of Her House</title>
+            <itunes:title>This Might Get Weird, Ep 27: Grace Gets Kicked Out of Her House</itunes:title>
+            <pubDate>Wed, 01 May 2019 10:00:00 +0000</pubDate>
+            <guid isPermaLink="false"><![CDATA[c0eee7bdaca24664896e73099051b1ff]]></guid>
+            <link><![CDATA[http://thismightgetweird.libsyn.com/tmgw-ep-27-grace-gets-kicked-out-of-her-house]]></link>
+            <itunes:image href="http://static.libsyn.com/p/assets/4/7/6/6/4766e843e7e5c863/TMGWlogo1b.jpg" />
+            <description><![CDATA[<p class="p1">Grace and Mamrie talk about 90’s Saturday Morning TV, Dinner Parties and their eventful experiences with Nail Care</p>]]></description>
+            <content:encoded><![CDATA[<p class="p1">Grace and Mamrie talk about 90’s Saturday Morning TV, Dinner Parties and their eventful experiences with Nail Care</p>]]></content:encoded>
+            <enclosure length="38483330" type="audio/mpeg" url="http://traffic.libsyn.com/thismightgetweird/Ep27.mp3?dest-id=815914" />
+            <itunes:duration>40:06</itunes:duration>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:keywords>get,this,weird,grace,hart,might,helbig,mamrie</itunes:keywords>
+            <itunes:subtitle><![CDATA[This Might Get Weird]]></itunes:subtitle>
+            <itunes:summary>Grace and Mamrie talk about 90’s Saturday Morning TV, Dinner Parties and their eventful experiences with Nail Care
+            </itunes:summary>
+            <itunes:season>1</itunes:season>
+            <itunes:episode>27</itunes:episode>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:author>This Might Get Weird</itunes:author>
+        </item>
+        <item>
+            <title>TMGW Ep26: Mamrie Gets Baptized</title>
+            <itunes:title>This Might Get Weird, Ep 26: Mamrie Gets Baptized</itunes:title>
+            <pubDate>Wed, 24 Apr 2019 10:00:00 +0000</pubDate>
+            <guid isPermaLink="false"><![CDATA[2bc4ff4459c449c8b32f70e8e221a9a6]]></guid>
+            <link><![CDATA[http://thismightgetweird.libsyn.com/tmgw-ep26-mamrie-gets-baptized]]></link>
+            <itunes:image href="http://static.libsyn.com/p/assets/4/7/6/6/4766e843e7e5c863/TMGWlogo1b.jpg" />
+            <description><![CDATA[<p class="p1">Grace and Mamrie talk waking up early, their feud with Maria Menounos, and all about Dog Shows.</p>]]></description>
+            <content:encoded><![CDATA[<p class="p1">Grace and Mamrie talk waking up early, their feud with Maria Menounos, and all about Dog Shows.</p>]]></content:encoded>
+            <enclosure length="39000346" type="audio/mpeg" url="http://traffic.libsyn.com/thismightgetweird/TMGW_Ep26.mp3?dest-id=815914" />
+            <itunes:duration>40:38</itunes:duration>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:keywords>get,this,weird,grace,hart,might,helbig,mamrie</itunes:keywords>
+            <itunes:subtitle><![CDATA[This Might Get Weird]]></itunes:subtitle>
+            <itunes:summary>Grace and Mamrie talk waking up early, their feud with Maria Menounos, and all about Dog Shows.
+            </itunes:summary>
+            <itunes:season>1</itunes:season>
+            <itunes:episode>26</itunes:episode>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:author>This Might Get Weird</itunes:author>
+        </item>
+        <item>
+            <title>TMGW Ep25: Grace Almost Meets Keanu Reeves</title>
+            <itunes:title>This Might Get Weird Ep25: Grace Almost Meets Keanu Reeves</itunes:title>
+            <pubDate>Wed, 17 Apr 2019 10:00:00 +0000</pubDate>
+            <guid isPermaLink="false"><![CDATA[f37edd9a839448d2895c04820d10a540]]></guid>
+            <link><![CDATA[http://thismightgetweird.libsyn.com/tmgw-ep25-grace-almost-meets-keanu-reeves]]></link>
+            <itunes:image href="http://static.libsyn.com/p/assets/4/7/6/6/4766e843e7e5c863/TMGWlogo1b.jpg" />
+            <description><![CDATA[<p class="p1">Grace and Mamrie reminisce about Elementary School PE games, the party tricks men pull out to impress women, and the sport of Pole Dancing.</p>]]></description>
+            <content:encoded><![CDATA[<p class="p1">Grace and Mamrie reminisce about Elementary School PE games, the party tricks men pull out to impress women, and the sport of Pole Dancing.</p>]]></content:encoded>
+            <enclosure length="45103804" type="audio/mpeg" url="http://traffic.libsyn.com/thismightgetweird/TMGW_Ep25.mp3?dest-id=815914" />
+            <itunes:duration>46:59</itunes:duration>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:keywords>get,this,weird,grace,hart,might,helbig,mamrie</itunes:keywords>
+            <itunes:subtitle><![CDATA[This Might Get Weird]]></itunes:subtitle>
+            <itunes:summary>Grace and Mamrie reminisce about Elementary School PE games, the party tricks men pull out to impress women, and the sport of Pole Dancing.</itunes:summary>
+            <itunes:season>1</itunes:season>
+            <itunes:episode>25</itunes:episode>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:author>This Might Get Weird</itunes:author>
+        </item>
+        <item>
+            <title>TMGW Ep24: Live in Brooklyn - Beanz Flies First Class</title>
+            <itunes:title>This Might Get Weird, Ep24: Live in Brooklyn - Beanz Flies First Class</itunes:title>
+            <pubDate>Wed, 10 Apr 2019 10:00:00 +0000</pubDate>
+            <guid isPermaLink="false"><![CDATA[799fa614031e47c3b76413ca89fc36d6]]></guid>
+            <link><![CDATA[http://thismightgetweird.libsyn.com/tmgw-ep24-live-in-brooklyn-beanz-flies-first-class]]></link>
+            <itunes:image href="http://static.libsyn.com/p/assets/4/7/6/6/4766e843e7e5c863/TMGWlogo1b.jpg" />
+            <description><![CDATA[<p class="p1">Grace and Mamrie talk about Elon Musk’s new single, Hotel Fire Alarms and Racoons taking the subway to work.</p>]]></description>
+            <content:encoded><![CDATA[<p class="p1">Grace and Mamrie talk about Elon Musk’s new single, Hotel Fire Alarms and Racoons taking the subway to work.</p>]]></content:encoded>
+            <enclosure length="53570403" type="audio/mpeg" url="http://traffic.libsyn.com/thismightgetweird/TMGW_Ep24Live_Edit1_NoMamriePants.mp3?dest-id=815914" />
+            <itunes:duration>55:49</itunes:duration>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:keywords>get,this,weird,grace,hart,might,helbig,mamrie</itunes:keywords>
+            <itunes:subtitle><![CDATA[This Might Get Weird]]></itunes:subtitle>
+            <itunes:summary>Grace and Mamrie talk about Elon Musk’s new single, Hotel Fire Alarms and Racoons taking the subway to work.
+            </itunes:summary>
+            <itunes:season>1</itunes:season>
+            <itunes:episode>24</itunes:episode>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:author>This Might Get Weird</itunes:author>
+        </item>
+        <item>
+            <title>TMGW Ep 23: Mamrie Shows Grace How to Catfish a Cow</title>
+            <itunes:title>This Might Get Weird, Ep23: Mamrie Shows Grace How to Catfish a Cow</itunes:title>
+            <pubDate>Wed, 03 Apr 2019 10:00:00 +0000</pubDate>
+            <guid isPermaLink="false"><![CDATA[dba142d0845f41f882d26625804052f6]]></guid>
+            <link><![CDATA[http://thismightgetweird.libsyn.com/tmgw-ep-23-mamrie-shows-grace-how-to-catfish-a-cow]]></link>
+            <itunes:image href="http://static.libsyn.com/p/assets/4/7/6/6/4766e843e7e5c863/TMGWlogo1b.jpg" />
+            <description><![CDATA[<p class="p1">Grace and Mamrie discuss the Great British Bake-off, share April Fool’s Day pranks, and talk about Mamrie’s latest trip to Vegas.</p>]]></description>
+            <content:encoded><![CDATA[<p class="p1">Grace and Mamrie discuss the Great British Bake-off, share April Fool’s Day pranks, and talk about Mamrie’s latest trip to Vegas.</p>]]></content:encoded>
+            <enclosure length="41412388" type="audio/mpeg" url="http://traffic.libsyn.com/thismightgetweird/TMGW_Ep23.mp3?dest-id=815914" />
+            <itunes:duration>43:09</itunes:duration>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:keywords>get,this,weird,grace,hart,might,helbig,mamrie</itunes:keywords>
+            <itunes:subtitle><![CDATA[This Might Get Weird]]></itunes:subtitle>
+            <itunes:summary>Grace and Mamrie discuss the Great British Bake-off, share April Fool’s Day pranks, and talk about Mamrie’s latest trip to Vegas. </itunes:summary>
+            <itunes:season>1</itunes:season>
+            <itunes:episode>23</itunes:episode>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:author>This Might Get Weird</itunes:author>
+        </item>
+        <item>
+            <title>TMGW Ep22: A Pre-Teen Hits on Mamrie</title>
+            <itunes:title>This Might Get Weird, Ep22: A Pre-Teen Hits on Mamrie</itunes:title>
+            <pubDate>Wed, 27 Mar 2019 10:00:00 +0000</pubDate>
+            <guid isPermaLink="false"><![CDATA[8432513ad8e141089088efc5e732e27d]]></guid>
+            <link><![CDATA[http://thismightgetweird.libsyn.com/tmgw-ep22-a-pre-teen-hits-on-mamrie]]></link>
+            <itunes:image href="http://static.libsyn.com/p/assets/4/7/6/6/4766e843e7e5c863/TMGWlogo1b.jpg" />
+            <description><![CDATA[<p class="p1">Grace and Mamrie talk about their strange addictions, Grace’s trip to an Engagement Cabin and Mamrie’s past as a Freestyle Rapper.</p>]]></description>
+            <content:encoded><![CDATA[<p class="p1">Grace and Mamrie talk about their strange addictions, Grace’s trip to an Engagement Cabin and Mamrie’s past as a Freestyle Rapper.</p>]]></content:encoded>
+            <enclosure length="40872385" type="audio/mpeg" url="http://traffic.libsyn.com/thismightgetweird/TMGW_Ep22.mp3?dest-id=815914" />
+            <itunes:duration>42:35</itunes:duration>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:keywords>get,this,weird,grace,hart,might,helbig,mamrie</itunes:keywords>
+            <itunes:subtitle><![CDATA[This Might Get Weird]]></itunes:subtitle>
+            <itunes:summary>Grace and Mamrie talk about their strange addictions, Grace’s trip to an Engagement Cabin and Mamrie’s past as a Freestyle Rapper.</itunes:summary>
+            <itunes:season>1</itunes:season>
+            <itunes:episode>22</itunes:episode>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:author>This Might Get Weird</itunes:author>
+        </item>
+        <item>
+            <title>TMGW Ep21: Mamrie Goes Spelunking</title>
+            <itunes:title>This Might Get Weird, Ep 21: Mamrie Goes Spelunking</itunes:title>
+            <pubDate>Thu, 21 Mar 2019 02:07:30 +0000</pubDate>
+            <guid isPermaLink="false"><![CDATA[7341b3344f374b06acef132b8e95814b]]></guid>
+            <link><![CDATA[http://thismightgetweird.libsyn.com/tmgw-ep21-mamrie-goes-spelunking]]></link>
+            <itunes:image href="http://static.libsyn.com/p/assets/4/7/6/6/4766e843e7e5c863/TMGWlogo1b.jpg" />
+            <description><![CDATA[<p class="p1">Grace has flies in her pants, a ladybug poops on Mamrie, and they discuss weighted blanket mishaps and Grace’s childhood Gymnastics.</p>]]></description>
+            <content:encoded><![CDATA[<p class="p1">Grace has flies in her pants, a ladybug poops on Mamrie, and they discuss weighted blanket mishaps and Grace’s childhood Gymnastics.</p>]]></content:encoded>
+            <enclosure length="42339004" type="audio/mpeg" url="http://traffic.libsyn.com/thismightgetweird/TMGW_Ep21.mp3?dest-id=815914" />
+            <itunes:duration>44:07</itunes:duration>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:keywords />
+            <itunes:subtitle><![CDATA[This Might Get Weird]]></itunes:subtitle>
+            <itunes:summary>Grace has flies in her pants, a ladybug poops on Mamrie, and they discuss weighted blanket mishaps and Grace’s childhood Gymnastics.</itunes:summary>
+            <itunes:season>1</itunes:season>
+            <itunes:episode>21</itunes:episode>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:author>This Might Get Weird</itunes:author>
+        </item>
+        <item>
+            <title>TMGW Ep20: Live at SXSW - Grace Swallows Her Nose Ring</title>
+            <itunes:title>This Might Get Weird, Ep. 20: Live at SXSW - Grace Swallows Her Nose Ring</itunes:title>
+            <pubDate>Wed, 13 Mar 2019 10:00:00 +0000</pubDate>
+            <guid isPermaLink="false"><![CDATA[f639b05fe7444c1c97ba80dda6cfc408]]></guid>
+            <link><![CDATA[http://thismightgetweird.libsyn.com/tmgw-ep20-live-at-south-by-southwest]]></link>
+            <itunes:image href="http://static.libsyn.com/p/assets/4/7/6/6/4766e843e7e5c863/TMGWlogo1b.jpg" />
+            <description><![CDATA[<p class="p1">Grace and Mamrie share some favorite memories at SXSW, Grace gets several business propositions and Mamrie makes a return to Critter Corner.</p>]]></description>
+            <content:encoded><![CDATA[<p class="p1">Grace and Mamrie share some favorite memories at SXSW, Grace gets several business propositions and Mamrie makes a return to Critter Corner.</p>]]></content:encoded>
+            <enclosure length="43070443" type="audio/mpeg" url="http://traffic.libsyn.com/thismightgetweird/TMGW_Ep20_Live.mp3?dest-id=815914" />
+            <itunes:duration>44:52</itunes:duration>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:keywords>get,this,weird,grace,hart,might,helbig,mamrie</itunes:keywords>
+            <itunes:subtitle><![CDATA[This Might Get Weird]]></itunes:subtitle>
+            <itunes:summary>Grace and Mamrie share some favorite memories at SXSW, Grace gets several business propositions and Mamrie makes a return to Critter Corner.</itunes:summary>
+            <itunes:season>1</itunes:season>
+            <itunes:episode>20</itunes:episode>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:author>This Might Get Weird</itunes:author>
+        </item>
+        <item>
+            <title>TMGW Ep19: The Squirrels Try to Assassinate Beanz</title>
+            <itunes:title>This Might Get Weird, Ep19: The Squirrels Try to Assassinate Beanz </itunes:title>
+            <pubDate>Wed, 06 Mar 2019 17:07:29 +0000</pubDate>
+            <guid isPermaLink="false"><![CDATA[3e5ec6254ac84ed7b00d55e163021063]]></guid>
+            <link><![CDATA[http://thismightgetweird.libsyn.com/tmgw-ep19-the-squirrels-try-to-assassinate-beanz]]></link>
+            <itunes:image href="http://static.libsyn.com/p/assets/4/7/6/6/4766e843e7e5c863/TMGWlogo1b.jpg" />
+            <description><![CDATA[<p class="p1">Grace and Mamrie talk about their trip to Orlando, an over eager bartender and how to properly carry a dog through the airport.</p>]]></description>
+            <content:encoded><![CDATA[<p class="p1">Grace and Mamrie talk about their trip to Orlando, an over eager bartender and how to properly carry a dog through the airport.</p>]]></content:encoded>
+            <enclosure length="42472751" type="audio/mpeg" url="http://traffic.libsyn.com/thismightgetweird/TMGW_Ep19.mp3?dest-id=815914" />
+            <itunes:duration>44:15</itunes:duration>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:keywords>get,this,weird,grace,hart,might,helbig,mamrie</itunes:keywords>
+            <itunes:subtitle><![CDATA[This Might Get Weird]]></itunes:subtitle>
+            <itunes:summary>Grace and Mamrie talk about their trip to Orlando, an over eager bartender and how to properly carry a dog through the airport.</itunes:summary>
+            <itunes:season>1</itunes:season>
+            <itunes:episode>19</itunes:episode>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:author>This Might Get Weird</itunes:author>
+        </item>
+        <item>
+            <title>TMGW Ep18: Grace Hits Herself With Bear Spray</title>
+            <itunes:title>This Might Get Weird, Ep18: Grace Hits Herself With Bear Spray</itunes:title>
+            <pubDate>Wed, 27 Feb 2019 11:00:00 +0000</pubDate>
+            <guid isPermaLink="false"><![CDATA[9e2e1627e3dd4e3f996764a28fd6ef10]]></guid>
+            <link><![CDATA[http://thismightgetweird.libsyn.com/tmgw-ep18-grace-hits-herself-with-bear-spray]]></link>
+            <itunes:image href="http://static.libsyn.com/p/assets/4/7/6/6/4766e843e7e5c863/TMGWlogo1b.jpg" />
+            <description><![CDATA[<p class="p1">Mamrie goes to a Cat Show, Grace has quite the Hibachi experience and they both recount Mamrie’s Oscars Party over the weekend.</p>]]></description>
+            <content:encoded><![CDATA[<p class="p1">Mamrie goes to a Cat Show, Grace has quite the Hibachi experience and they both recount Mamrie’s Oscars Party over the weekend.</p>]]></content:encoded>
+            <enclosure length="41660238" type="audio/mpeg" url="http://traffic.libsyn.com/thismightgetweird/TMGW_ep18.mp3?dest-id=815914" />
+            <itunes:duration>43:24</itunes:duration>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:keywords>get,this,weird,grace,hart,might,helbig,mamrie</itunes:keywords>
+            <itunes:subtitle><![CDATA[This Might Get Weird]]></itunes:subtitle>
+            <itunes:summary>Mamrie goes to a Cat Show, Grace has quite the Hibachi experience and they both recount Mamrie’s Oscars Party over the weekend.</itunes:summary>
+            <itunes:season>1</itunes:season>
+            <itunes:episode>18</itunes:episode>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:author>This Might Get Weird</itunes:author>
+        </item>
+        <item>
+            <title>TMGW Ep17: Mamrie Channels Her Inner Banksy</title>
+            <itunes:title>This Might Get Weird, Ep17: Mamrie Channels Her Inner Banksy</itunes:title>
+            <pubDate>Wed, 20 Feb 2019 11:00:00 +0000</pubDate>
+            <guid isPermaLink="false"><![CDATA[3a07e51b207d454aaf33e85d7c374017]]></guid>
+            <link><![CDATA[http://thismightgetweird.libsyn.com/tmgw-ep17-mamrie-channels-her-inner-banksy]]></link>
+            <itunes:image href="http://static.libsyn.com/p/assets/4/7/6/6/4766e843e7e5c863/TMGWlogo1b.jpg" />
+            <description><![CDATA[<p>Mamrie has an eventful audition, Grace’s obsession with Gritty reaches new heights and Critter Corner makes a triumphant return.</p>]]></description>
+            <content:encoded><![CDATA[<p>Mamrie has an eventful audition, Grace’s obsession with Gritty reaches new heights and Critter Corner makes a triumphant return.</p>]]></content:encoded>
+            <enclosure length="42475259" type="audio/mpeg" url="http://traffic.libsyn.com/thismightgetweird/TMGW_Ep17.mp3?dest-id=815914" />
+            <itunes:duration>44:15</itunes:duration>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:keywords>get,this,weird,grace,hart,might,helbig,mamrie</itunes:keywords>
+            <itunes:subtitle><![CDATA[This Might Get Weird]]></itunes:subtitle>
+            <itunes:summary>Mamrie has an eventful audition, Grace’s obsession with Gritty reaches new heights and Critter Corner makes a triumphant return.</itunes:summary>
+            <itunes:season>1</itunes:season>
+            <itunes:episode>17</itunes:episode>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:author>This Might Get Weird</itunes:author>
+        </item>
+        <item>
+            <title>TMGW Ep16: Grace Parties Hard in Vegas</title>
+            <itunes:title>This Might Get Weird, Ep 18: Grace Parties Hard in Vegas</itunes:title>
+            <pubDate>Wed, 13 Feb 2019 11:00:00 +0000</pubDate>
+            <guid isPermaLink="false"><![CDATA[3548ea069ebb4dff8bdeb14abd746400]]></guid>
+            <link><![CDATA[http://thismightgetweird.libsyn.com/tmgw-ep16-grace-parties-hard-in-vegas]]></link>
+            <itunes:image href="http://static.libsyn.com/p/assets/4/7/6/6/4766e843e7e5c863/TMGWlogo1b.jpg" />
+            <description><![CDATA[<p>Grace goes to a Backstreet Boys Concert while Mamrie goes to see Kiss in San Diego, and they both discuss their not being Girl Scouts as kids</p>]]></description>
+            <content:encoded><![CDATA[<p>Grace goes to a Backstreet Boys Concert while Mamrie goes to see Kiss in San Diego, and they both discuss their not being Girl Scouts as kids</p>]]></content:encoded>
+            <enclosure length="40653375" type="audio/mpeg" url="http://traffic.libsyn.com/thismightgetweird/TMGW_Ep16.mp3?dest-id=815914" />
+            <itunes:duration>42:21</itunes:duration>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:keywords>get,this,weird,grace,hart,might,helbig,mamrie</itunes:keywords>
+            <itunes:subtitle><![CDATA[This Might Get Weird]]></itunes:subtitle>
+            <itunes:summary>Grace goes to a Backstreet Boys Concert while Mamrie goes to see Kiss in San Diego, and they both discuss their not being Girl Scouts as kids</itunes:summary>
+            <itunes:season>1</itunes:season>
+            <itunes:episode>16</itunes:episode>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:author>This Might Get Weird</itunes:author>
+        </item>
+        <item>
+            <title>TMGW Ep15: Mamrie Gets a Flat Tire</title>
+            <itunes:title>This Might Get Weird Episode 15: Mamrie Gets a Flat Tire</itunes:title>
+            <pubDate>Wed, 06 Feb 2019 11:00:00 +0000</pubDate>
+            <guid isPermaLink="false"><![CDATA[fd1f57e649af4af1845ddaeeba95aa5a]]></guid>
+            <link><![CDATA[http://thismightgetweird.libsyn.com/tmgw-ep15-mamrie-gets-a-flat-tire]]></link>
+            <itunes:image href="http://static.libsyn.com/p/assets/4/7/6/6/4766e843e7e5c863/TMGWlogo1b.jpg" />
+            <description><![CDATA[<p class="p1">Mamrie and Grace discuss their Super Bowl Experiences, Grace makes an unexpected stop on a road trip and Mamrie has some words for Words With Friends.</p>]]></description>
+            <content:encoded><![CDATA[<p class="p1">Mamrie and Grace discuss their Super Bowl Experiences, Grace makes an unexpected stop on a road trip and Mamrie has some words for Words With Friends.</p>]]></content:encoded>
+            <enclosure length="44804127" type="audio/mpeg" url="http://traffic.libsyn.com/thismightgetweird/tmgwEp15.mp3?dest-id=815914" />
+            <itunes:duration>46:41</itunes:duration>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:keywords>get,this,weird,grace,hart,might,helbig,mamrie</itunes:keywords>
+            <itunes:subtitle><![CDATA[This Might Get Weird]]></itunes:subtitle>
+            <itunes:summary>Mamrie and Grace discuss their Super Bowl Experiences, Grace makes an unexpected stop on a road trip and Mamrie has some words for Words With Friends.</itunes:summary>
+            <itunes:season>1</itunes:season>
+            <itunes:episode>15</itunes:episode>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:author>This Might Get Weird</itunes:author>
+        </item>
+        <item>
+            <title>TMGW Ep14: Grace Accidentally Goes Off Grid</title>
+            <itunes:title>This Might Get Weird Ep 14: Grace Accidentally Goes Off Grid</itunes:title>
+            <pubDate>Wed, 30 Jan 2019 11:00:00 +0000</pubDate>
+            <guid isPermaLink="false"><![CDATA[ced21e5c8d4c4c7392c14fe0ab74b366]]></guid>
+            <link><![CDATA[http://thismightgetweird.libsyn.com/tmgw-ep14-grace-accidentally-goes-off-grid]]></link>
+            <itunes:image href="http://static.libsyn.com/p/assets/4/7/6/6/4766e843e7e5c863/TMGWlogo1b.jpg" />
+            <description><![CDATA[<p class="p1">Grace has an adventure in Palm Springs, while Mamrie goes Line Dancing and to a Tattoo Convention.</p>]]></description>
+            <content:encoded><![CDATA[<p class="p1">Grace has an adventure in Palm Springs, while Mamrie goes Line Dancing and to a Tattoo Convention.</p>]]></content:encoded>
+            <enclosure length="40187768" type="audio/mpeg" url="http://traffic.libsyn.com/thismightgetweird/TMGW_Ep14.mp3?dest-id=815914" />
+            <itunes:duration>41:52</itunes:duration>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:keywords>grace,hart,helbig,mamrie</itunes:keywords>
+            <itunes:subtitle><![CDATA[This Might Get Weird]]></itunes:subtitle>
+            <itunes:summary>Grace has an adventure in Palm Springs, while Mamrie goes Line Dancing and to a Tattoo convention.</itunes:summary>
+            <itunes:season>1</itunes:season>
+            <itunes:episode>14</itunes:episode>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:author>This Might Get Weird</itunes:author>
+        </item>
+        <item>
+            <title>TMGW Ep13: Grace and Mamrie Meet a Bounty Hunter</title>
+            <itunes:title>This Might Get Weird Ep13: Grace and Mamrie Meet a Bounty Hunter</itunes:title>
+            <pubDate>Wed, 23 Jan 2019 11:00:00 +0000</pubDate>
+            <guid isPermaLink="false"><![CDATA[503389b2524740f8985a2415083d5d5f]]></guid>
+            <link><![CDATA[http://thismightgetweird.libsyn.com/tmgw-ep13-grace-and-mamrie-meet-a-bounty-hunter]]></link>
+            <itunes:image href="http://static.libsyn.com/p/assets/4/7/6/6/4766e843e7e5c863/TMGWlogo1b.jpg" />
+            <description><![CDATA[<p class="p1">Grace and Mamrie celebrate the New Blood Wolf Moon, Grace has an odd Uber ride and Mamrie gives an update on Critter Corner</p>]]></description>
+            <content:encoded><![CDATA[<p class="p1">Grace and Mamrie celebrate the New Blood Wolf Moon, Grace has an odd Uber ride and Mamrie gives an update on Critter Corner</p>]]></content:encoded>
+            <enclosure length="40670511" type="audio/mpeg" url="http://traffic.libsyn.com/thismightgetweird/TMGW_Ep13.mp3?dest-id=815914" />
+            <itunes:duration>42:22</itunes:duration>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:keywords>get,this,weird,grace,hart,might,helbig,mamrie</itunes:keywords>
+            <itunes:subtitle><![CDATA[This Might Get Weird]]></itunes:subtitle>
+            <itunes:summary>Grace and Mamrie celebrate the New Blood Wolf Moon, Grace has an odd Uber ride and Mamrie gives an update on Critter Corner</itunes:summary>
+            <itunes:season>1</itunes:season>
+            <itunes:episode>13</itunes:episode>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:author>This Might Get Weird</itunes:author>
+        </item>
+        <item>
+            <title>TMGW Ep12: Grace and Mamrie Go Live!</title>
+            <itunes:title>This Might Get Weird, Episode 12: Grace and Mamrie Go Live</itunes:title>
+            <pubDate>Wed, 16 Jan 2019 11:00:00 +0000</pubDate>
+            <guid isPermaLink="false"><![CDATA[f8ff0d6e2f9741049464e6ef6cae2182]]></guid>
+            <link><![CDATA[http://thismightgetweird.libsyn.com/tmgw-ep12-grace-and-mamrie-go-live]]></link>
+            <itunes:image href="http://static.libsyn.com/p/assets/4/7/6/6/4766e843e7e5c863/TMGWlogo1b.jpg" />
+            <description><![CDATA[<p>In their first Live Podcast, Grace and Mamrie getting to San Francisco, Grace's strong feelings towards Aquaman and Mamrie's very attentive Dog Sitter. </p>]]></description>
+            <content:encoded><![CDATA[<p>In their first Live Podcast, Grace and Mamrie getting to San Francisco, Grace's strong feelings towards Aquaman and Mamrie's very attentive Dog Sitter. </p>]]></content:encoded>
+            <enclosure length="67328414" type="audio/mpeg" url="http://traffic.libsyn.com/thismightgetweird/TMGW_Ep12_Live_take2.mp3?dest-id=815914" />
+            <itunes:duration>01:10:08</itunes:duration>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:keywords>get,this,weird,grace,hart,might,helbig,mamrie</itunes:keywords>
+            <itunes:subtitle><![CDATA[This Might Get Weird]]></itunes:subtitle>
+            <itunes:summary>In their first Live Podcast, Grace and Mamrie getting to San Francisco, Grace's strong feelings towards Aquaman and Mamrie's very attentive Dog Sitter. </itunes:summary>
+            <itunes:season>1</itunes:season>
+            <itunes:episode>12</itunes:episode>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:author>This Might Get Weird</itunes:author>
+        </item>
+        <item>
+            <title>TMGW Ep11: Beanz Almost Gets Dognapped</title>
+            <itunes:title>This Might Get Weird, Episode 11: Beanz Almost Gets Dognapped</itunes:title>
+            <pubDate>Wed, 09 Jan 2019 11:00:00 +0000</pubDate>
+            <guid isPermaLink="false"><![CDATA[b0e613805c974b9fb7b9610a636b5d55]]></guid>
+            <link><![CDATA[http://thismightgetweird.libsyn.com/tmgw-ep11-beanz-almost-gets-dognapped]]></link>
+            <itunes:image href="http://static.libsyn.com/p/assets/4/7/6/6/4766e843e7e5c863/TMGWlogo1b.jpg" />
+            <description><![CDATA[<p>Grace and Mamrie recount their Holiday trips, Mamrie goes Camping and Grace discovers the farting dolphins for herself</p>]]></description>
+            <content:encoded><![CDATA[<p>Grace and Mamrie recount their Holiday trips, Mamrie goes Camping and Grace discovers the farting dolphins for herself</p>]]></content:encoded>
+            <enclosure length="43073771" type="audio/mpeg" url="http://traffic.libsyn.com/thismightgetweird/TMGW_Ep11.mp3?dest-id=815914" />
+            <itunes:duration>44:53</itunes:duration>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:keywords>get,this,weird,grace,hart,might,helbig,mamrie</itunes:keywords>
+            <itunes:subtitle><![CDATA[This Might Get Weird]]></itunes:subtitle>
+            <itunes:summary>Grace and Mamrie recount their Holiday trips, Mamrie goes Camping and Grace discovers the farting dolphins for herself.</itunes:summary>
+            <itunes:season>1</itunes:season>
+            <itunes:episode>11</itunes:episode>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:author>This Might Get Weird</itunes:author>
+        </item>
+        <item>
+            <title>TMGW Ep 10: Mamrie's Secret College Hookup</title>
+            <itunes:title>This Might Get Weird, Episode 10: Mamrie's Secret College Hookup</itunes:title>
+            <pubDate>Wed, 02 Jan 2019 11:00:00 +0000</pubDate>
+            <guid isPermaLink="false"><![CDATA[e7a757f33dec483ca019398fc7d6029c]]></guid>
+            <link><![CDATA[http://thismightgetweird.libsyn.com/tmgw-ep-10-mamries-secret-college-hookup]]></link>
+            <itunes:image href="http://static.libsyn.com/p/assets/4/7/6/6/4766e843e7e5c863/TMGWlogo1b.jpg" />
+            <description><![CDATA[<p>Grace and Mamrie discuss RuPaul's Drag Race All Stars, Tenacious D Concerts and answer some weird questions from Twitter.</p>]]></description>
+            <content:encoded><![CDATA[<p>Grace and Mamrie discuss RuPaul's Drag Race All Stars, Tenacious D Concerts and answer some weird questions from Twitter.</p>]]></content:encoded>
+            <enclosure length="49872300" type="audio/mpeg" url="http://traffic.libsyn.com/thismightgetweird/TMGW_Ep10.mp3?dest-id=815914" />
+            <itunes:duration>51:57</itunes:duration>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:keywords>get,this,weird,grace,hart,might,helbig,mamrie</itunes:keywords>
+            <itunes:subtitle><![CDATA[This Might Get Weird]]></itunes:subtitle>
+            <itunes:summary>Grace and Mamrie discuss RuPaul's Drag Race All Stars, Tenacious D Concerts and answer some weird questions from Twitter.</itunes:summary>
+            <itunes:season>1</itunes:season>
+            <itunes:episode>10</itunes:episode>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:author>This Might Get Weird</itunes:author>
+        </item>
+        <item>
+            <title>TMGW Ep09: Grace Takes the Wrong Pill</title>
+            <itunes:title>This Might Get Weird, Episode 09: Grace Takes the Wrong Pill</itunes:title>
+            <pubDate>Wed, 19 Dec 2018 11:00:00 +0000</pubDate>
+            <guid isPermaLink="false"><![CDATA[fcfb4bdcbfb34b1083080642b01e487e]]></guid>
+            <link><![CDATA[http://thismightgetweird.libsyn.com/tmgw-ep09-grace-takes-the-wrong-pill]]></link>
+            <itunes:image href="http://static.libsyn.com/p/assets/4/7/6/6/4766e843e7e5c863/TMGWlogo1b.jpg" />
+            <description><![CDATA[<p class="p1">Grace and Mamrie discuss their thoughts on White Elephant/Secret Santas, Mamrie’s Gardners make themselves at home, and they both discuss the humor in farts.</p>]]></description>
+            <content:encoded><![CDATA[<p class="p1">Grace and Mamrie discuss their thoughts on White Elephant/Secret Santas, Mamrie’s Gardners make themselves at home, and they both discuss the humor in farts.</p>]]></content:encoded>
+            <enclosure length="38460760" type="audio/mpeg" url="http://traffic.libsyn.com/thismightgetweird/TMGW_Ep09.mp3?dest-id=815914" />
+            <itunes:duration>40:04</itunes:duration>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:keywords>get,this,weird,grace,hart,might,helbig,mamrie</itunes:keywords>
+            <itunes:subtitle><![CDATA[This Might Get Weird]]></itunes:subtitle>
+            <itunes:summary>Grace and Mamrie discuss their thoughts on White Elephant/Secret Santas, Mamrie’s Gardners make themselves at home, and they both discuss the humor in farts.</itunes:summary>
+            <itunes:season>1</itunes:season>
+            <itunes:episode>9</itunes:episode>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:author>This Might Get Weird</itunes:author>
+        </item>
+        <item>
+            <title>TMGW Ep08: Prank Calls Gone Wrong</title>
+            <itunes:title>This Might Get Weird, Episode 08: Prank Calls Gone Wrong</itunes:title>
+            <pubDate>Wed, 12 Dec 2018 11:00:00 +0000</pubDate>
+            <guid isPermaLink="false"><![CDATA[b2beb3ec2ff54bbd964d9c271dd25164]]></guid>
+            <link><![CDATA[http://thismightgetweird.libsyn.com/tmgw-ep08-prank-calls-gone-wrong]]></link>
+            <itunes:image href="http://static.libsyn.com/p/assets/4/7/6/6/4766e843e7e5c863/TMGWlogo1b.jpg" />
+            <description><![CDATA[<p class="p1">Grace and Mamrie talk about their recent trip to NYC, they discuss the new Tumblr Porn Ban and inappropriate lyrics of songs kids sing.</p>]]></description>
+            <content:encoded><![CDATA[<p class="p1">Grace and Mamrie talk about their recent trip to NYC, they discuss the new Tumblr Porn Ban and inappropriate lyrics of songs kids sing.</p>]]></content:encoded>
+            <enclosure length="40902060" type="audio/mpeg" url="http://traffic.libsyn.com/thismightgetweird/TMGW_Ep08.mp3?dest-id=815914" />
+            <itunes:duration>42:37</itunes:duration>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:keywords>get,this,weird,grace,hart,might,helbig,mamrie</itunes:keywords>
+            <itunes:subtitle><![CDATA[Grace and Mamrie talk about their recent trip to NYC, they discuss the new Tumblr Porn Ban and inappropriate lyrics of songs kids sing.]]></itunes:subtitle>
+            <itunes:summary>Grace and Mamrie talk about their recent trip to NYC, they discuss the new Tumblr Porn Ban and inappropriate lyrics of songs kids sing.</itunes:summary>
+            <itunes:season>1</itunes:season>
+            <itunes:episode>8</itunes:episode>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:author>This Might Get Weird</itunes:author>
+        </item>
+        <item>
+            <title>This Might Get Weird, Episode 07</title>
+            <itunes:title>This Might Get Weird, Episode 07: Hannah Tastes an Ant</itunes:title>
+            <pubDate>Wed, 05 Dec 2018 11:00:00 +0000</pubDate>
+            <guid isPermaLink="false"><![CDATA[517816261365467fa441d27b74ff34cb]]></guid>
+            <link><![CDATA[http://thismightgetweird.libsyn.com/this-might-get-weird-episode-07]]></link>
+            <itunes:image href="http://static.libsyn.com/p/assets/4/7/6/6/4766e843e7e5c863/TMGWlogo1b.jpg" />
+            <description><![CDATA[<p class="p1">Grace and Mamrie invite Hannah Hart to the party. They talk about Kombucha, video games, and Hannah takes Critter Corner to a whole new place.</p>]]></description>
+            <content:encoded><![CDATA[<p class="p1">Grace and Mamrie invite Hannah Hart to the party. They talk about Kombucha, video games, and Hannah takes Critter Corner to a whole new place.</p>]]></content:encoded>
+            <enclosure length="51635669" type="audio/mpeg" url="http://traffic.libsyn.com/thismightgetweird/TMGW_Ep07.mp3?dest-id=815914" />
+            <itunes:duration>53:48</itunes:duration>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:keywords>get,this,weird,hannah,grace,hart,might,helbig,mamrie</itunes:keywords>
+            <itunes:subtitle><![CDATA[Hannah Tastes an Ant]]></itunes:subtitle>
+            <itunes:summary>Grace and Mamrie invite Hannah Hart to the party. They talk about Kombucha, video games, and Hannah takes Critter Corner to a whole new place.</itunes:summary>
+            <itunes:season>1</itunes:season>
+            <itunes:episode>7</itunes:episode>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:author>This Might Get Weird</itunes:author>
+        </item>
+        <item>
+            <title>This Might Get Weird, Episode 06</title>
+            <itunes:title>This Might Get Weird, Episode 06: Mamrie Breaks a Gas Station</itunes:title>
+            <pubDate>Wed, 28 Nov 2018 11:00:00 +0000</pubDate>
+            <guid isPermaLink="false"><![CDATA[13b853b03fc0489ba6e360d57dec3279]]></guid>
+            <link><![CDATA[http://thismightgetweird.libsyn.com/this-might-get-weird-episode-06]]></link>
+            <itunes:image href="http://static.libsyn.com/p/assets/4/7/6/6/4766e843e7e5c863/TMGWlogo1b.jpg" />
+            <description><![CDATA[<p>Reconnecting after Thanksgiving, Grace talks about her stress dreams, Mamrie recounts her very Southern holiday and Mamrie's Critter-Gate continues.</p>]]></description>
+            <content:encoded><![CDATA[<p>Reconnecting after Thanksgiving, Grace talks about her stress dreams, Mamrie recounts her very Southern holiday and Mamrie's Critter-Gate continues.</p>]]></content:encoded>
+            <enclosure length="43744182" type="audio/mpeg" url="http://traffic.libsyn.com/thismightgetweird/TMGW_Ep06_20181128.mp3?dest-id=815914" />
+            <itunes:duration>45:34</itunes:duration>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:keywords>get,this,weird,grace,hart,might,helbig,mamrie</itunes:keywords>
+            <itunes:subtitle><![CDATA[Mamrie Breaks a Gas Station]]></itunes:subtitle>
+            <itunes:summary>Reconnecting after Thanksgiving, Grace talks about her stress dreams, Mamrie recounts her very Southern holiday and Mamrie's Critter-Gate continues.</itunes:summary>
+            <itunes:season>1</itunes:season>
+            <itunes:episode>6</itunes:episode>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:author>This Might Get Weird</itunes:author>
+        </item>
+        <item>
+            <title>This Might Get Weird, Episode 05</title>
+            <itunes:title>This Might Get Weird, Episode 05: Thanks...But No Thanks</itunes:title>
+            <pubDate>Wed, 21 Nov 2018 11:00:00 +0000</pubDate>
+            <guid isPermaLink="false"><![CDATA[28d19a297621418d88a3aad35e9c0922]]></guid>
+            <link><![CDATA[http://thismightgetweird.libsyn.com/this-might-get-weird-episode-05]]></link>
+            <itunes:image href="http://static.libsyn.com/p/assets/4/7/6/6/4766e843e7e5c863/TMGWlogo1b.jpg" />
+            <description><![CDATA[<p>Grace and Mamrie discuss what they're thankful for this year, Mamrie recounts the dogs she almost adopted, and Grace talks Karaoke.</p>]]></description>
+            <content:encoded><![CDATA[<p>Grace and Mamrie discuss what they're thankful for this year, Mamrie recounts the dogs she almost adopted, and Grace talks Karaoke.</p>]]></content:encoded>
+            <enclosure length="47734020" type="audio/mpeg" url="http://traffic.libsyn.com/thismightgetweird/TMGW_Ep05.mp3?dest-id=815914" />
+            <itunes:duration>49:44</itunes:duration>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:keywords>get,this,weird,grace,hart,might,helbig,mamrie</itunes:keywords>
+            <itunes:subtitle><![CDATA[Thanks...But No Thanks]]></itunes:subtitle>
+            <itunes:summary>Grace and Mamrie discuss what they're thankful for this year, Mamrie recounts the dogs she almost adopted, and Grace talks Karaoke.</itunes:summary>
+            <itunes:season>1</itunes:season>
+            <itunes:episode>5</itunes:episode>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:author>This Might Get Weird</itunes:author>
+        </item>
+        <item>
+            <title>This Might Get Weird, Episode 04</title>
+            <itunes:title>This Might Get Weird, Episode 04: Doggie Dentures</itunes:title>
+            <pubDate>Wed, 14 Nov 2018 11:00:00 +0000</pubDate>
+            <guid isPermaLink="false"><![CDATA[cba37effd0a0445a8d67958cad7c8932]]></guid>
+            <link><![CDATA[http://thismightgetweird.libsyn.com/this-might-get-weird-episode-04]]></link>
+            <itunes:image href="http://static.libsyn.com/p/assets/4/7/6/6/4766e843e7e5c863/TMGWlogo1b.jpg" />
+            <description><![CDATA[<p>Grace and Mamrie both have "ghostly" experiences, Grace continues to go through it, this time in Chicago, Beanz goes to the Vet, and Mamrie talks Alf and Drag Queens.</p>]]></description>
+            <content:encoded><![CDATA[<p>Grace and Mamrie both have "ghostly" experiences, Grace continues to go through it, this time in Chicago, Beanz goes to the Vet, and Mamrie talks Alf and Drag Queens.</p>]]></content:encoded>
+            <enclosure length="47424313" type="audio/mpeg" url="http://traffic.libsyn.com/thismightgetweird/TMGW_Ep04.mp3?dest-id=815914" />
+            <itunes:duration>49:24</itunes:duration>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:keywords>get,this,weird,grace,hart,might,helbig,mamrie</itunes:keywords>
+            <itunes:subtitle><![CDATA[Doggie Dentures]]></itunes:subtitle>
+            <itunes:summary>Grace and Mamrie both have "ghostly" experiences, Grace continues to go through it, this time in Chicago, Beanz goes to the Vet, and Mamrie talks Alf and Drag Queens.</itunes:summary>
+            <itunes:season>1</itunes:season>
+            <itunes:episode>4</itunes:episode>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:author>This Might Get Weird</itunes:author>
+        </item>
+        <item>
+            <title>This Might Get Weird, Episode 03</title>
+            <itunes:title>This Might Get Weird, Episode 03: My Big Fat Things I Hate About You</itunes:title>
+            <pubDate>Wed, 07 Nov 2018 11:00:00 +0000</pubDate>
+            <guid isPermaLink="false"><![CDATA[c5c26a69c03243a8a6a3c46bd4dc8160]]></guid>
+            <link><![CDATA[http://thismightgetweird.libsyn.com/this-might-get-weird-episode-03]]></link>
+            <itunes:image href="http://static.libsyn.com/p/assets/4/7/6/6/4766e843e7e5c863/TMGWlogo1b.jpg" />
+            <description><![CDATA[<p>Grace and Mamrie talk celebrity cults, Grace's experiences with Reality TV, the world's cutest snore, and Mamrie's continued critter drama.</p>]]></description>
+            <content:encoded><![CDATA[<p>Grace and Mamrie talk celebrity cults, Grace's experiences with Reality TV, the world's cutest snore, and Mamrie's continued critter drama.</p>]]></content:encoded>
+            <enclosure length="36391863" type="audio/mpeg" url="http://traffic.libsyn.com/thismightgetweird/TMGW_Ep03.mp3?dest-id=815914" />
+            <itunes:duration>37:55</itunes:duration>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:keywords>get,this,weird,grace,hart,might,helbig,mamrie</itunes:keywords>
+            <itunes:subtitle><![CDATA[My Big Fat Things I Hate About You]]></itunes:subtitle>
+            <itunes:summary>Grace and Mamrie talk celebrity cults, Grace's experiences with Reality TV, the world's cutest snore, and Mamrie's continued critter drama</itunes:summary>
+            <itunes:season>1</itunes:season>
+            <itunes:episode>3</itunes:episode>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:author>This Might Get Weird</itunes:author>
+        </item>
+        <item>
+            <title>This Might Get Weird, Episode 02</title>
+            <itunes:title>This Might Get Weird, Episode 02: Caught in a [Fever] Dream</itunes:title>
+            <pubDate>Wed, 31 Oct 2018 10:00:00 +0000</pubDate>
+            <guid isPermaLink="false"><![CDATA[f8fa03a462f24fa992a18b034b786ee6]]></guid>
+            <link><![CDATA[http://thismightgetweird.libsyn.com/this-might-get-weird-episode-02]]></link>
+            <itunes:image href="http://static.libsyn.com/p/assets/4/7/6/6/4766e843e7e5c863/TMGWlogo1b.jpg" />
+            <description><![CDATA[<p class="p1">Grace and Mamrie discuss their Halloween weekend in Palm Springs, how Grace is "going through it" and Mamrie delves more into her experiences with the animal kingdom.</p>]]></description>
+            <content:encoded><![CDATA[<p class="p1">Grace and Mamrie discuss their Halloween weekend in Palm Springs, how Grace is "going through it" and Mamrie delves more into her experiences with the animal kingdom.</p>]]></content:encoded>
+            <enclosure length="41653133" type="audio/mpeg" url="http://traffic.libsyn.com/thismightgetweird/TMGW_Ep02.mp3?dest-id=815914" />
+            <itunes:duration>43:24</itunes:duration>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:keywords>comedy,get,this,weird,grace,hart,might,helbig,mamrie</itunes:keywords>
+            <itunes:subtitle><![CDATA[Caught in a [Fever] Dream]]></itunes:subtitle>
+            <itunes:summary>Grace and Mamrie discuss their Halloween weekend in Palm Springs, how Grace is "going through it" and Mamrie delves more into her experiences with the animal kingdom.</itunes:summary>
+            <itunes:season>1</itunes:season>
+            <itunes:episode>2</itunes:episode>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
+        <item>
+            <title>This Might Get Weird, Episode 01</title>
+            <itunes:title>This Might Get Weird, Episode 01: Macaw Me Maybe</itunes:title>
+            <pubDate>Wed, 24 Oct 2018 10:00:00 +0000</pubDate>
+            <guid isPermaLink="false"><![CDATA[71387a96f40d419a954fc869b0acfdb9]]></guid>
+            <link><![CDATA[http://thismightgetweird.libsyn.com/this-might-get-weird-episode-01]]></link>
+            <itunes:image href="http://static.libsyn.com/p/assets/4/7/6/6/4766e843e7e5c863/TMGWlogo1b.jpg" />
+            <description><![CDATA[<p>Grace and Mamrie discuss Canine Religion and High Nature in the first full episode of their new podcast.</p>]]></description>
+            <content:encoded><![CDATA[<p>Grace and Mamrie discuss Canine Religion and High Nature in the first full episode of their new podcast.</p>]]></content:encoded>
+            <enclosure length="29029934" type="audio/mpeg" url="http://traffic.libsyn.com/thismightgetweird/TMGW_Ep01_Fix.mp3?dest-id=815914" />
+            <itunes:duration>30:15</itunes:duration>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:keywords>comedy,get,this,weird,grace,hart,might,helbig,mamrie</itunes:keywords>
+            <itunes:subtitle><![CDATA[Macaw Me Maybe]]></itunes:subtitle>
+            <itunes:summary>Grace and Mamrie discuss Canine Religion and High Nature in the first full episode of their new podcast.</itunes:summary>
+            <itunes:season>1</itunes:season>
+            <itunes:episode>1</itunes:episode>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
+        <item>
+            <title>Welcome to This Might Get Weird</title>
+            <itunes:title>This Might Get Weird: It's Happening</itunes:title>
+            <pubDate>Fri, 12 Oct 2018 08:14:52 +0000</pubDate>
+            <guid isPermaLink="false"><![CDATA[085328857f8c427cbe6ab63b9dd31c14]]></guid>
+            <link><![CDATA[http://traffic.libsyn.com/thismightgetweird/TMGWteaser_episode.mp3]]></link>
+            <itunes:image href="http://static.libsyn.com/p/assets/4/7/6/6/4766e843e7e5c863/TMGWlogo1b.jpg" />
+            <description><![CDATA[<p>We're doing it! We, Grace and Mamrie, are FINALLY starting a podcast! Every Wednesday we'll be sharing some common sense, complete nonsense and mostly jokes at our own dispense! Strap in!</p>]]></description>
+            <content:encoded><![CDATA[<p>We're doing it! We, Grace and Mamrie, are FINALLY starting a podcast! Every Wednesday we'll be sharing some common sense, complete nonsense and mostly jokes at our own dispense! Strap in!</p>]]></content:encoded>
+            <enclosure length="7679583" type="audio/mpeg" url="http://traffic.libsyn.com/thismightgetweird/TMGWteaser_episode.mp3?dest-id=815914" />
+            <itunes:duration>02:54</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:keywords>grace,hart,helbig,mamrie,196994</itunes:keywords>
+            <itunes:subtitle><![CDATA[We're doing it! We, Grace and Mamrie, are FINALLY starting a podcast! Every Wednesday we'll be sharing some common sense, complete nonsense and mostly jokes at our own dispense! Strap in!]]></itunes:subtitle>
+            <itunes:summary>We're doing it! We, Grace and Mamrie, are FINALLY starting a podcast! Every Wednesday we'll be sharing some common sense, complete nonsense and mostly jokes at our own dispense! Strap in!</itunes:summary>
+            <itunes:season>1</itunes:season>
+            <itunes:episode>1</itunes:episode>
+            <itunes:episodeType>trailer</itunes:episodeType>
+            <itunes:author>This Might Get Weird </itunes:author>
+        </item>
+    </channel>
+</rss>
