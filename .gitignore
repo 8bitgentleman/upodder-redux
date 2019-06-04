@@ -15,11 +15,13 @@ upodder/config.ini
 Ways to improve script.rtf
 upodder/db
 upodder/pods
+upodder/test/podcasts
+upodder/test/test_opml.opml
 upodder/test/feed-test.py
 upodder/test/config-test.py
 upodder/test/example_feed.xml
 upodder/test/pods.sqlite
-
+upodder/test/test.py
 
 # Distribution / packaging
 .Python

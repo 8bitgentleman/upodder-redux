@@ -1,9 +1,9 @@
 import unittest
 import shutil
-
 from upodder import upodder
 
 BASEDIR = '/tmp/upodder_testing'
+
 
 class TestUpodder(unittest.TestCase):
     feeds = [
@@ -32,7 +32,8 @@ class TestUpodder(unittest.TestCase):
         upodder.init()
 
     def tearDown(cls):
-        shutil.rmtree(BASEDIR);
+        shutil.rmtree(BASEDIR)
+
 
 class TestFeedProcessing(TestUpodder):
     def test_feedparsing(self):
@@ -50,6 +51,7 @@ class TestFeedProcessing(TestUpodder):
 class TestFailingFeeds(TestUpodder):
     def test_failing_feed(self):
         upodder.process_feed('http://www.google.com')
+
 
 if __name__ == '__main__':
     unittest.main()
